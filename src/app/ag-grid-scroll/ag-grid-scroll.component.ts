@@ -42,6 +42,7 @@ export class AgGridScrollComponent implements OnInit {
             width: 100
         }
     ];
+    //Hide the overl
     let hideOverlay = _.debounce(function hide() {
       self.gridOptions.api.hideOverlay();
     }, 100);
